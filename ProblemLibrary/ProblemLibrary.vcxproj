@@ -133,10 +133,16 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CommissionProblem.h" />
     <ClInclude Include="InitialTest.h" />
+    <ClInclude Include="NextDateProblem.h" />
+    <ClInclude Include="TriangleProblem.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CommissionProblem.cpp" />
     <ClCompile Include="InitialTest.cpp" />
+    <ClCompile Include="NextDateProblem.cpp" />
+    <ClCompile Include="TrianleProblem.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

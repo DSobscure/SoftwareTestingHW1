@@ -154,8 +154,10 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ProblemTests.cpp" />
+    <ClCompile Include="CommissionProblemTests.cpp" />
+    <ClCompile Include="NextDateProblemTests.cpp" />
     <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="TriangleProblemTests.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GoogleTest\GoogleTest.vcxproj">

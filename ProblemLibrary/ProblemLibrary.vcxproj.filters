@@ -21,9 +21,27 @@
     <ClInclude Include="InitialTest.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="CommissionProblem.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleProblem.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="NextDateProblem.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="InitialTest.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="CommissionProblem.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="TrianleProblem.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="NextDateProblem.cpp">
       <Filter>原始程式檔</Filter>
     </ClCompile>
   </ItemGroup>
