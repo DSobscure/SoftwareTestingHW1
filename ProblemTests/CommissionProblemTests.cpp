@@ -2,7 +2,7 @@
 #include "gtest/gtest.h"
 #include "../ProblemLibrary/CommissionProblem.h"
 
-TEST(CommissionProblemTest1, Test)
+TEST(CommissionProblemNormalTest, Test1)
 {
-	EXPECT_EQ(1, 1);
+	EXPECT_EQ(CommissionProblem::ComputeCommission(0, 0, 0), 0);
 }

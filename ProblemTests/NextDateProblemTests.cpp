@@ -3,7 +3,7 @@
 #include "../ProblemLibrary/NextDateProblem.h"
 
 
-TEST(NextDateProblemTest1, Test)
+TEST(NextDateProblemNormalTest, Test1)
 {
-	EXPECT_EQ(1, 1);
+	EXPECT_EQ(NextDateProblem::GetNextDate(0, 0, 0), "");
 }
