@@ -1,8 +1,10 @@
 #pragma once
+#include <string>
+
 class CommissionProblem
 {
 public:
-	static float ComputeCommission(int lockCount, int stockCount, int barrelCount);
+	static std::string ComputeCommission(int lockCount, int stockCount, int barrelCount);
 	CommissionProblem();
 	~CommissionProblem();
 };
